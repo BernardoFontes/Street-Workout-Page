@@ -1,3 +1,26 @@
+.home{
+  background-image: url(ilustration.jpg);
+  background-size: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.planche{
+  background-image: url(planchefoto.jpg);
+  color: black;
+}
+
+.front{
+  background-image: url(frontfoto.jpg);
+}
+
+.hand{
+  background-image: url(hand.jpg)
+}
+
 .App {
   text-align: center;
 }
@@ -6,6 +29,38 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.links{
+  display: flex;
+  background-color: gray;
+  height: 50px;
+  width: 100%;
+  padding: 10px 25px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav{
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+
+.straddle, .full, .one-arm-planche, .maltesa, .full-front, .touch, .one-arm-front, .victorian, .handstand, .one-arm-hs, .hollowback{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img{
+  padding: 30px;
+}
+
+a:visited, a:hover, a:active{
+  color: black
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
